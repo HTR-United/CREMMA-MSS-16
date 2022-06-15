@@ -1,38 +1,46 @@
-schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: CREMMA Manuscrits du 16e
-url: 'https://github.com/HTR-United/CREMMA-MSS-16'
-project-name: CREMMA
+url: https://github.com/HTR-United/CREMMA-MSS-16
 authors:
-    - name: 'Clérice'
-      surname: 'Thibault'
-      roles:
-      - 'project-manager'
-      - 'quality-control'
-    - name: 'Chagué'
-      surname: 'Alix'
-      roles:
-      - 'project-manager'
-      - 'quality-control'
-description: >
-  Manuscripts of the 16th century
+  - name: Clérice
+    surname: Thibault
+    type: person
+    roles:
+      - project-manager
+      - quality-control
+      - support
+  - name: Chagué
+    surname: Alix
+    type: person
+    roles:
+      - project-manager
+      - quality-control
+      - support
+  - name: Mazoue
+    surname: Anaïs
+    type: person
+    roles:
+      - transcriber
+description: Manuscripts of the 16th century
+project-name: CREMMA
 language:
   - fra
-script: 
-  - Latn
-script-type: 'only-manuscript'
-time: 
-  notBefore: "1500"
-  notAfter: "1599"
-hands: 
-  count: '1-per-folder'
-  precision: 'exact'
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1500'
+  notAfter: '1599'
+hands:
+  count: 1-per-folder
+  precision: exact
 license:
-  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: 'Alto-XML'
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
 volume:
-    - {count: 0, metric: "lines"}
-    - {count: 0, metric: "files"}
-    - {count: 0, metric: "regions"}
-    - {count: 0, metric: "characters"}
-transcription-guidelines: >
-    Abréviations conservées.
+  - metric: files
+    count: 9
+citation-file-link: https://github.com/Dummy/depot-test/CITATION.cff
+transcription-guidelines: Abréviations conservées.
