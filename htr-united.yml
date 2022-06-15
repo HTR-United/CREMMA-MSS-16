@@ -42,5 +42,4 @@ format: Alto-XML
 volume:
   - metric: files
     count: 9
-citation-file-link: https://github.com/Dummy/depot-test/CITATION.cff
 transcription-guidelines: Abréviations conservées.
