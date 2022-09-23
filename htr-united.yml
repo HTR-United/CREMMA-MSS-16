@@ -36,10 +36,11 @@ hands:
   count: 1-per-folder
   precision: exact
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
-volume:
+volume:  
   - metric: files
     count: 9
 transcription-guidelines: Abréviations conservées.
+production-software: eScriptorium + Kraken
