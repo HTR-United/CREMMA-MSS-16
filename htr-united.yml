@@ -1,31 +1,32 @@
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-title: CREMMA Manuscrits du 16e
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: CREMMA MSS 16
 url: https://github.com/HTR-United/CREMMA-MSS-16
 authors:
-  - name: Clérice
-    surname: Thibault
-    type: person
+  - name: Thibault
+    surname: Clérice
+    orcid: 0000-0003-1852-9204
     roles:
       - project-manager
       - quality-control
       - support
-  - name: Chagué
-    surname: Alix
-    type: person
+  - name: Alix
+    surname: Chagué
+    orcid: 0000-0002-0136-4434
     roles:
       - project-manager
       - quality-control
       - support
-  - name: Mazoue
-    surname: Anaïs
-    type: person
+  - name: Anaïs
+    surname: Mazoue
     roles:
       - transcriber
+institutions: []
 description: Manuscripts of the 16th century
 project-name: CREMMA
 language:
   - fra
 production-software: eScriptorium + Kraken
+automatically-aligned: false
 script:
   - iso: Latn
 script-type: only-manuscript
@@ -36,11 +37,11 @@ hands:
   count: 1-per-folder
   precision: exact
 license:
-- name: CC-BY 4.0
+  name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
-volume:  
+volume:
   - metric: files
     count: 9
+citation-file-link: https://github.com/HTR-United/CREMMA-MSS-16/CITATION.cff
 transcription-guidelines: Abréviations conservées.
-production-software: eScriptorium + Kraken
